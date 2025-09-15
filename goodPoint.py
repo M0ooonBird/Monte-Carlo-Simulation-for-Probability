@@ -4,8 +4,7 @@ import random
 
 def goodPoint(n_simulation:int, n:int)->float:
     '''
-        好点问题模拟，n个0-1范围内的均匀分布随机点，其中好点个数的期望值。
-
+        Simulation of good point problem, expectation of good points among n uniform random points in [0,1].
     '''
     def neighbor(Xn, j)->int:
         # 找Xn[j]的邻居的index

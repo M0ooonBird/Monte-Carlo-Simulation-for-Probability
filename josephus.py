@@ -103,7 +103,7 @@ def josephus_simulation_vector(n:int)->int:
 
 # 测试示例
 
-print("n=100,结果:", josephus_simulation_vector(102))
-
+n = 100
+print(f"n= {n},结果:", josephus_simulation_vector(n))
 # print("n=100, k=2 结果:", josephus_simulation(100))
 # print("n=7, k=3 结果:", josephus_simulation(7, 3))
